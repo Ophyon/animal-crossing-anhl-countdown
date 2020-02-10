@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Responsive Images */
+img, embed, object, video {
+    max-width: 100%;
+  }
+
+/*
+Custom Styles Begin Here
+Designed and developed by Justin
+*/
+
+body {
+	padding: 0% 3%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.clocks {
+    font-size: 56px;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.clocks2 {
+	font-size: 26px;
+}
+
+a, a:visited, a:hover {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+h2 a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+.playbutton {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 74px;
+  border-color: transparent transparent transparent #202020;
+  transition: 100ms all ease;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 37px 0 37px 60px;
+}
+
+@media only screen and (min-width:23.4375em) { 
+
+    h2 {
+        font-size: 32px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h3 {
+        font-size: 20px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h4 {
+        font-size: 18px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .clocks {
+        font-size: 62px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+	
+	.clocks2 {
+		font-size: 32px;
+	}
+
+}
+
+@media only screen and (min-width:25.875em) { 
+
+    h2 {
+        font-size: 29px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h3 {
+        font-size: 22px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h4 {
+        font-size: 19px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .clocks {
+        font-size: 66px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+	
+	.clocks2 {
+		font-size: 36px;
+	}
+    
+}
+
+@media only screen and (min-width:48em) { 
+
+    h2 {
+        font-size: 34px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h3 {
+        font-size: 22px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h4 {
+        font-size: 19px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .clocks {
+        font-size: 80px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+	
+	.clocks2 {
+		font-size: 50px;
+	}
+    
+}
+
+@media only screen and (min-width:48em) { 
+
+    h2 {
+        font-size: 38px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h3 {
+        font-size: 26px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h4 {
+        font-size: 19px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .clocks {
+        font-size: 96px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+	
+	.clocks2 {
+		font-size: 66px;
+	}
+    
+}
+
+@media only screen and (min-width:68.75em) { 
+
+    h2 {
+        font-size: 52px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h3 {
+        font-size: 28px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h4 {
+        font-size: 21px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .clocks {
+        font-size: 120px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+	
+	.clocks2 { 
+		font-size: 70px;
+	}
+    
+}
+
+@media only screen and (min-width:100em) { 
+
+    h2 {
+        font-size: 58px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h3 {
+        font-size: 30px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    h4 {
+        font-size: 22px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .clocks {
+        font-size: 140px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+	
+	.clocks2 {
+		font-size: 80px;
+	}
+
+}
