@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Countdown to ACNH</title>
+        <meta name="description" content="Live countdown to the Animal Crossing: New Horizons release date on March 20th, 2020 for Nintendo Switch!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css?v2">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600|Roboto+Slab:700" rel="stylesheet">
+        <meta name="twitter:card" value="summary_large_image">
+        <meta property="og:title" content="Countdown to Animal Crossing: New Horizons Release on March 20th, 2020" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://animalcrossingworld.com/animal-crossing-new-horizons-release-date-countdown/" />
+        <meta property="og:image" content="https://animalcrossingworld.com/animal-crossing-new-horizons-release-date-countdown/images/social-share-version-2.jpg" />
+        <meta property="og:description" content="Live countdown to the Animal Crossing: New Horizons release date on March 20th, 2020 for Nintendo Switch!" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdn.thisiswaldo.com/static/js/4995.js"></script>
+        <script language="JavaScript" src="jquery.countdown.min.js"></script>
+        <script language="JavaScript" src="moment.min.js"></script>
+        <script language="JavaScript" src="moment-timezone-with-data-10-year-range.min.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-THLVNKS');</script>
+		<!-- End Google Tag Manager -->
+        <style>
+        body {
+            background-image: url(images/AnimalCrossingNewHorizonsLogo.png),linear-gradient(
+                rgba(0, 0, 0, 0.35),
+                rgba(0, 0, 0, 0.35)
+            ),url(images/art_2.jpg);
+            background-size: 200px 133px, cover, cover;
+            background-position: center 2%, 50%, 50%;
+			background-repeat: no-repeat;
+            margin: 0;  
+             
+        }
+		@media only screen and (min-width:48em) { 
+			body {
+				background-size: 300px 200px, cover, cover;
+			}
+		}
+        </style>
+    </head>
+    <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THLVNKS"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+    <img onClick="togglePlay()" src="play-button.png" style="width: 50px; height: 50px; position: absolute; right:1; bottom: 1; padding: 1%;"></a>
+        <div class="center">
+                <div id="clock" class="clocks"></div>
+                <script type="text/javascript">
+                    var newhorizons = moment.tz("2020-03-20 00:00", "America/New_York");
+                    
+                    $('#clock').countdown(newhorizons.toDate(), function(event) {
+                    $(this).html(event.strftime(''
+                        + '%D DAYS<br />'
+						+ '<span class="clocks2">%H HOURS, %M MINS</span>'
+                    ));
+                    });
+                </script><br />
+                <h2>until <a href="https://amzn.to/31tgbem" target="_blank">Animal Crossing: New Horizons</a> on March 20th!</h2><br />
+				<audio loop="" id="bgmusic" src="main-theme.mp3">	 
+				</audio>
+				<script type="text/javascript">
+				var bgMusic = document.getElementById("bgmusic");
+
+				function togglePlay() {
+				  return bgMusic.paused ? bgMusic.play() : bgMusic.pause();
+				};
+				</script>
+        </div>
+	<!-- 728x90/320x50 sticky footer -->
+	<div id="waldo-tag-5010"></div>
+	<div id="amzn-assoc-ad-05100929-b2f1-475a-b74a-a0aebcb241dd"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=05100929-b2f1-475a-b74a-a0aebcb241dd"></script>
+    </body>
+</html>
